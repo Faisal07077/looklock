@@ -1,0 +1,27 @@
+# Ignore IDE/editor folders
+.idea/
+.vscode/
+
+# Ignore database and secret folders
+vault/
+vault.db
+face_data/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Environment and dependency files
+.env
+
+# Ignore OS or temporary files
+.DS_Store
+Thumbs.db
+
+# Ignore log and XML config files (optional)
+*.log
+*.xml
+
+
+
+users.json
