@@ -43,17 +43,4 @@ venv\Scripts\activate  # Windows
 3.pip install -r requirements.txt
 4.python app.py
 5.http://127.0.0.1:5000/
-PROJECT STRUCTURE
-looklock/
-├── app.py
-├── vault/                  # Encrypted files (ignored in git)
-├── face_data/              # Stored face encodings (ignored in git)
-├── user.json               # User details (ignored in git)
-├── templates/              # HTML templates
-│   ├── index.html
-│   ├── login.html
-│   ├── register.html
-│   └── dashboard.html
-├── static/ (if used)
-├── requirements.txt
-└── README.md
+
